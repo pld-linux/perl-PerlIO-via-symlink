@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	PerlIO
-%define	pnam	via-symlink
+%define		pdir	PerlIO
+%define		pnam	via-symlink
 Summary:	PerlIO::via::symlink - PerlIO layers for create symlinks
 Summary(pl):	PerlIO::via::symlink - warstwy PerlIO do tworzenia symlinków
 Name:		perl-PerlIO-via-symlink
