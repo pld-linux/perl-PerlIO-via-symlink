@@ -8,13 +8,13 @@
 Summary:	PerlIO::via::symlink - PerlIO layers for create symlinks
 Summary(pl):	PerlIO::via::symlink - warstwy PerlIO do tworzenia symlinków
 Name:		perl-PerlIO-via-symlink
-Version:	0.02
+Version:	0.03
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	60b456f3122252e72be182e5bb29e41d
+# Source0-md5:	a7ee002ae3985785bd136f31536160f3
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
