@@ -6,7 +6,7 @@
 %define	pdir	PerlIO
 %define	pnam	via-symlink
 Summary:	PerlIO::via::symlink - PerlIO layers for create symlinks
-#Summary(pl):	
+Summary(pl):	PerlIO::via::symlink - warstwy PerlIO do tworzenia symlinków
 Name:		perl-PerlIO-via-symlink
 Version:	0.02
 Release:	1
@@ -21,14 +21,18 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The PerlIO layer C<symlink> allows you to create a symbolic link by
+The PerlIO layer symlink allows you to create a symbolic link by
 writing to the file handle.
 
-You need to write C"link $name" to the file handle. If the format does
-not match, C<close> will fail with EINVAL.
+You need to write "link $name" to the file handle. If the format does
+not match, close will fail with EINVAL.
 
-# %description -l pl
-# TODO
+%description -l pl
+Warstwa PerlIO symlink umo¿liwia tworzenie dowi±zañ symbolicznych
+poprzez zapis do uchwytu pliku.
+
+Wystarczy zapisaæ "link $name" do uchwytu pliku. Je¶li format siê nie
+zgadza, close nie powiedzie siê z kodem EINVAL.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
