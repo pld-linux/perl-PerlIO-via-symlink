@@ -6,7 +6,7 @@
 %define		pdir	PerlIO
 %define		pnam	via-symlink
 Summary:	PerlIO::via::symlink - PerlIO layers for create symlinks
-Summary(pl):	PerlIO::via::symlink - warstwy PerlIO do tworzenia symlinków
+Summary(pl.UTF-8):   PerlIO::via::symlink - warstwy PerlIO do tworzenia symlinkÃ³w
 Name:		perl-PerlIO-via-symlink
 Version:	0.05
 Release:	1
@@ -27,12 +27,12 @@ writing to the file handle.
 You need to write "link $name" to the file handle. If the format does
 not match, close will fail with EINVAL.
 
-%description -l pl
-Warstwa PerlIO symlink umo¿liwia tworzenie dowi±zañ symbolicznych
+%description -l pl.UTF-8
+Warstwa PerlIO symlink umoÅ¼liwia tworzenie dowiÄ…zaÅ„ symbolicznych
 poprzez zapis do uchwytu pliku.
 
-Wystarczy zapisaæ "link $name" do uchwytu pliku. Je¶li format siê nie
-zgadza, close nie powiedzie siê z kodem EINVAL.
+Wystarczy zapisaÄ‡ "link $name" do uchwytu pliku. JeÅ›li format siÄ™ nie
+zgadza, close nie powiedzie siÄ™ z kodem EINVAL.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
