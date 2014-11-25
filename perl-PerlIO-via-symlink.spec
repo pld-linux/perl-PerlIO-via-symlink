@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	PerlIO
 %define		pnam	via-symlink
+%include	/usr/lib/rpm/macros.perl
 Summary:	PerlIO::via::symlink - PerlIO layers for create symlinks
 Summary(pl.UTF-8):	PerlIO::via::symlink - warstwy PerlIO do tworzenia symlinków
 Name:		perl-PerlIO-via-symlink
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	bf33533dba6a48eb459a15df15c8415f
+URL:		http://search.cpan.org/dist/PerlIO-via-symlink/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
