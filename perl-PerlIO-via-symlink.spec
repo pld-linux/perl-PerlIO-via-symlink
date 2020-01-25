@@ -4,7 +4,6 @@
 
 %define		pdir	PerlIO
 %define		pnam	via-symlink
-%include	/usr/lib/rpm/macros.perl
 Summary:	PerlIO::via::symlink - PerlIO layers for create symlinks
 Summary(pl.UTF-8):	PerlIO::via::symlink - warstwy PerlIO do tworzenia symlinków
 Name:		perl-PerlIO-via-symlink
